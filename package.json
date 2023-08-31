@@ -1,0 +1,23 @@
+{
+  "name": "recover_issues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start_mainnet": "env-cmd -e mainnet -r .config.js node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "env-cmd": "^10.1.0"
+  },
+  "dependencies": {
+    "@near-eth/client": "^1.9.0",
+    "@near-eth/near-ether": "^2.4.1",
+    "@near-eth/nep141-erc20": "^2.4.1",
+    "body-parser": "^1.20.2",
+    "ethers": "^5.4.6",
+    "express": "^4.18.2"
+  }
+}
